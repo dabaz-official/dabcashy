@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Faq from '../components/home-page/Faq'
 import Features from '../components/home-page/Features'
@@ -10,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>DabCash</title>
+        <title>DabCashy</title>
         <link rel="icon" href="/logos/primary-logo.svg" />
       </Head>
       
@@ -22,6 +23,7 @@ export default function Home() {
         <Pricing />
         <Faq />
       </main>
+      <Footer />
     </div>
   )
 }

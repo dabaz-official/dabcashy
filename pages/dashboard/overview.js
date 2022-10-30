@@ -31,7 +31,7 @@ export default function Overview() {
   return (
     <div>
       <Head>
-        <title>DabCash</title>
+        <title>DabCashy</title>
         <link rel="icon" href="/logos/primary-logo.svg" />
       </Head>
 

@@ -8,11 +8,11 @@ const navigation = [
 
 export default function Header() {
   return (
-    <header className="py-5">
+    <header className="py-5 z-50 sticky top-0 backdrop-blur-md bg-white/70">
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
-            <a aria-label="Home" className="/">
+            <a aria-label="Home" href="/">
               <img 
                 src="/logos/primary-logo-text.svg"
                 alt="Primary Logo with Text"

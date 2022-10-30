@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-28 text-center md:pt-40 lg:pt-44 md:pb-60 lg:pb-56">
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-28 text-center md:pt-40 lg:pt-44 md:pb-60 lg:pb-56 bg-white">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         Budget & expense management{" "}
         <span className="relative whitespace-nowrap text-blue-600">
